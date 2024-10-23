@@ -2,6 +2,9 @@
     --slate-300: hsl(212 45% 89%);
     --slate-500: hsl(216 15% 48%);
     --slate-900: hsl(218 44% 22%);
+    --space-200: 16px;
+    --space-300: 24px;
+    --space-500: 40px;
 }
 
 body {
@@ -10,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 0px 16px 0px 16px;
+    padding: 0px var(--space-200) 0px var(--space-200);
     margin: 0;
 
 }
@@ -20,7 +23,7 @@ body {
     max-width: 360px;
     width: 100%;
     height: fit-content;
-    padding: 16px 16px 40px 16px;
+    padding: var(--space-200) var(--space-200) var(--space-500) var(--space-200);
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -38,8 +41,8 @@ img {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    padding: 0px 16px;
-    gap: 16px;
+    padding: 0px var(--space-200);
+    gap: var(--space-200);
 }
 
 h1{
